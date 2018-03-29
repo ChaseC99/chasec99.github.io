@@ -17,11 +17,11 @@
 }
 
 @media screen and (min-width: 550px) and (max-width:721px) {
-    #gallery li {
-        width: 45%;
+    #page-gallery li {
+        width: 90%;
     }
 
-    #gallery li:nth-child(3) {
+    #page-gallery li:nth-child(2) {
         clear: left;
     }
 }
@@ -29,7 +29,7 @@
 @media screen and (min-width: 721px) {
 	/**************************
 	   HEADER
-    **************************/
+    **************************
 
     nav {
         background: none;
@@ -61,23 +61,23 @@
     }
 
     /**************************
-	   PAGE: PORTFOLIO
+	   PAGE: ABOUT
     **************************/
 
-    #gallery li {
-        width: 28.3333%;
+    #page-gallery li {
+        width: 30%;
     }
 
-    #gallery li:nth-child(4) {
+    #page-gallery li:nth-child(3) {
         clear: left;
     }
 
     /**************************
 	   PAGE: ABOUT
-    **************************/
+    **************************
 
     .profile-photo {
         float: left;
         margin: 0 5% 80px 0;
-    }
+    }/
 }
