@@ -29,7 +29,10 @@
 @media screen and (min-width: 721px) {
 	/**************************
 	   HEADER
-    **************************
+    **************************/
+    body {
+        background-color: #444;
+    }
 
     nav {
         background: none;
@@ -39,7 +42,7 @@
         width: 45%;
     }
 
-    #logo {
+    #nav_name {
         float: left;
         margin-left: 5%;
         text-align: left;
