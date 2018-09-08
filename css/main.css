@@ -65,7 +65,7 @@ nav a {
                 pink url('../img/cover_picture.jpg') center / cover;
 	height: 500px;
 	text-align: center;
-	padding-top: 120px;
+	padding-top: 75px;
     padding-bottom: 90px;
     margin-bottom: 50px;
 }
@@ -102,8 +102,18 @@ nav a {
 	PAGE: ABOUT
 **************************/
 
-#bio {
+#about {
 	text-align: center;
+	width: 85%;
+	margin: 0 auto;
+}
+
+#about p {
+	font-size: 1rem;
+}
+
+#profile_pic {
+	height: 450px;
 }
 
 #page-gallery {
