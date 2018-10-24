@@ -39,9 +39,9 @@ nav {
 	text-align:center;
 	overflow: hidden;
 	background-color: lightgray;
-	position: fixed;
 	top: 0;
 	width: 100%;
+    position: fixed;
 }
 
 nav ul {
@@ -80,6 +80,11 @@ nav a:link, nav a:visited {
 	top: 0;
 	width: 100%;
 }
+
+/**************************
+	BODY
+**************************/
+
 
 /**************************
 	COVER
