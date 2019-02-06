@@ -82,11 +82,6 @@ nav a:link, nav a:visited {
 }
 
 /**************************
-	BODY
-**************************/
-
-
-/**************************
 	COVER
 **************************/
 #cover{
@@ -97,7 +92,7 @@ nav a:link, nav a:visited {
 	padding-top: 75px;
     padding-bottom: 90px;
 	margin-top: 20px;
-    margin-bottom: 50px;
+    margin-bottom: 120px;
 }
 
 #cover span {
@@ -133,31 +128,13 @@ nav a:link, nav a:visited {
 **************************/
 
 #about {
-	text-align: center;
+	text-align: left;
 	width: 85%;
 	margin: 0 auto;
 }
 
-#about p {
-	font-size: 1rem;
-}
-
 #profile_pic {
 	height: 450px;
-}
-
-#page-gallery {
-	margin: 0;
-	padding: 0;
-	text-align: center;
-}
-
-#page-gallery a li {
-	float: center;
-	height: 200px;
-	width: 30%;
-	margin: 2.5%;
-	vertical-align: middle;
 }
 
 
@@ -170,6 +147,12 @@ footer {
 	text-align: center;
 	clear: both;
 	padding-top: 50px;
+}
+
+footer img {
+	width: 35px;
+	height: 35px;
+	margin: 10px;
 }
 
 footer p {
