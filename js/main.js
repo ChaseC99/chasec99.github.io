@@ -1,4 +1,15 @@
 /***************************
+    Timeline
+***************************/
+function toggleDescription(id) {
+  if ($("#"+id).css("display") == "block") {
+    $("#"+id).css("display", "none");
+  } else {
+    $("#"+id).css("display", "block");
+  }
+}
+
+/***************************
     Scroll To Sections
 ***************************/
 $(document).ready(function(){

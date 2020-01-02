@@ -3,7 +3,7 @@
     <head>
         <title>Chase Carnaroli</title>
         <link rel="stylesheet" href="css/normalize.css">
-		<link rel="stylesheet" href="css/main.css">
+		    <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/responsive.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="js/main.js"></script>
@@ -15,7 +15,7 @@
                 <ul id="nav_items">
                     <li><a href="#about">About</a></li>
                     <li><a href="https://www.github.com/ChaseC99">Projects</a></li>
-                    <li><a href="files/resume.pdf">Resume</a></li>
+                    <li><a href="resume.pdf">Resume</a></li>
                     <li><a href="mailto:chasecarnaroli@gmail.com">Contact</a></li>
                 </ul>
             </ul>
@@ -49,12 +49,156 @@
                 </p>
 
             </section>
-        </div>
+        </div>  
+
+        <div class="container">
+          <ul class="timeline">
+              <li>
+                <div class="timeline-year">2020</div>
+              </li>
+              <li class="timeline-inverted">
+                <div class="timeline-panel" onclick="toggleDescription('desc6')">
+                  <div class="timeline-header">
+                    <img class="company-icon" src="img/timeline-icons/housing.jpg">
+                    <div class="timeline-heading">
+                      <h4 class="timeline-title">UCI Housing</h4>
+                      <h5 class="timeline-title">STEM Resident Advisor</h5>
+                    </div>
+                  </div>
+                  <div class="timeline-body" id="desc6">
+                    <p>September 2019 - June 2020</p>
+                    <ul>
+                      <li>Supervise a hall with 67 freshmen from a variety of STEM majors.</li>
+                      <li>Coordinate and lead professional development workshops, tech tutorials, and social mixers.</li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="timeline-panel" onclick="toggleDescription('desc5')">
+                  <div class="timeline-header">
+                    <img class="company-icon" src="img/timeline-icons/khan.png">
+                    <div class="timeline-heading">
+                      <h4 class="timeline-title">Khan Academy</h4>
+                      <h5 class="timeline-title">Software Engineer Intern</h5>
+                    </div>
+                  </div>
+                  <div class="timeline-body" id="desc5">
+                    <p>June 2019 - September 2019</p>
+                    <p>
+                      Frontend developer working with Javascript and React 
+                      Improved the Learning Time tracking system to classify an additional 1.4 million minutes of user activity per week
+                      Redesigned and launched a new Translators About page to recognize the work of the internationalization team
+                      Created a live markdown previewer for discussion posts and comments
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li class="timeline-inverted">
+                <div class="timeline-panel" onclick="toggleDescription('desc4')">
+                  <div class="timeline-header">
+                    <img class="company-icon" src="img/timeline-icons/uci-outdoor-adventures.jpg">
+                    <div class="timeline-heading">
+                      <h4 class="timeline-title">UCI Outdoor Adventures</h4>
+                      <h5 class="timeline-title">Kayak Instructor</h5>
+                    </div>
+                  </div>
+                  <div class="timeline-body" id="desc4">
+                    <p>April 2019 - Present</p>
+                    <p>Lead groups on kayak and paddle board adventures, while providing them with a fun and safe experience.</p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="timeline-panel" onclick="toggleDescription('desc3')">
+                  <div class="timeline-header">
+                    <img class="company-icon" src="img/timeline-icons/codepath.jpg">
+                    <div class="timeline-heading">
+                      <h4 class="timeline-title">CodePath</h4>
+                      <h5 class="timeline-title">Technical Program Manager</h5>
+                    </div>
+                  </div>
+                  <div class="timeline-body" id="desc3">
+                    <p>March 2019 - Present</p>
+                    <p>
+                      Teach a weekly course on the fundamentals of iOS Development to over 30 UC Irvine students. 
+                      Create class material and provide one-on-one guidance for students during office hours.
+                      Class topics include: TableViews, CollectionViews, Segues, APIs calls, AutoLayout (constraints), Frameworks (i.e. WebKit, MapKit, ARKit), and using CocoaPods for iOS Libraries
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="timeline-year">2019</div>
+              </li>
+              <li class="timeline-inverted">
+                <div class="timeline-panel" onclick="toggleDescription('desc2')">
+                  <div class="timeline-header">
+                    <img class="company-icon" src="img/timeline-icons/koder.png">
+                    <div class="timeline-heading">
+                      <h4 class="timeline-title">Koder Inc.</h4>
+                      <h5 class="timeline-title">Software Engineer Intern</h5>
+                    </div>
+                  </div>
+                  <div class="timeline-body" id="desc2">
+                    <p>May 2018 - August 2018</p>
+                    <p>
+                      Backend developer working with C#, ASP.NET Core, SQL Databases, and Microsoft Azure.
+                      Created the backend for promotional codes and referrals on the Koder Platform.
+                      Implemented email, push, and feed notifications with Koder’s iOS app.
+                      Worked on additional API endpoints and Azure Functions.
+                    </p>
+                    <p>
+                      Koder is a future-of-work platform that connects companies with teams of crowdsourced developers to deliver results. Through the Koder service, anyone can get an elite team of engineers to build their next idea.
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="timeline-panel" onclick="toggleDescription('desc1')">
+                  <div class="timeline-header">
+                    <img class="company-icon" src="img/timeline-icons/dreams-for-schools.jpg">
+                    <div class="timeline-heading">
+                      <h4 class="timeline-title">Dreams for Schools</h4>
+                      <h5 class="timeline-title">AppJam+ Program Mentor</h5>
+                    </div>
+                  </div>
+                  <div class="timeline-body" id="desc1">
+                    <p>March 2018 - Present</p>
+                    <p>
+                      Mentor middle school students while teaching them how to develop an Android game application.
+                      Teach students computer science concepts and introduce them to possible careers in STEM.
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="timeline-year">2018</div>
+              </li>
+              <li class="timeline-inverted">
+                <div class="timeline-panel" onclick="toggleDescription('desc0')">
+                  <div class="timeline-header">
+                    <img class="company-icon" src="img/timeline-icons/uci.png">
+                    <div class="timeline-heading">
+                      <h4 class="timeline-title">UC Irvine</h4>
+                      <h5 class="timeline-title">B.S. Computer Science</h5>
+                    </div>
+                  </div>
+                  <div class="timeline-body" id="desc0">
+                    <p>2017 - 2021</p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="timeline-year">2017</div>
+              </li>
+          </ul>
+      </div>
         <footer>
             <ul>
-                <li><a href="https://www.linkedin.com/in/ChaseCarnaroli"><img src="img/icons/linkedin.png"></a></li>
-                <li><a href="https://www.github.com/ChaseC99"><img src="img/icons/github.png"></a></li>
-                <li><a href="https://www.instagram.com/Chasing_Chase19"><img src="img/icons/instagram.png"></a></li>
+                <li><a href="https://www.linkedin.com/in/ChaseCarnaroli"><img src="img/social-icons/linkedin.png"></a></li>
+                <li><a href="https://www.github.com/ChaseC99"><img src="img/social-icons/github.png"></a></li>
+                <li><a href="https://www.instagram.com/Chasing_Chase19"><img src="img/social-icons/instagram.png"></a></li>
             </ul>
         </footer>
     </body>
