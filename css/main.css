@@ -94,6 +94,13 @@ nav a:link, nav a:visited {
     margin-bottom: 120px;
 }
 
+#cover img {
+	width: 50px;
+	height: 50px;
+	margin: 10px;
+	filter: saturate(0);
+}
+
 #cover span {
     color: white;
     border-bottom: 2px solid;
@@ -128,15 +135,29 @@ nav a:link, nav a:visited {
 **************************/
 
 #about {
-	text-align: left;
 	width: 85%;
-	margin: 0 auto;
+	display: flex;
+	flex-direction: row-reverse;
+	margin: 0 auto 20px auto;
 }
 
 #profile_pic {
 	height: 450px;
+	border: 5px solid #FFF;
+	border-radius: 150px;
+	margin-left: 50px;
 }
 
+#about_bio {
+	text-align: left;
+	color: white;
+}
+
+#about_bio h3 {
+	font-size: 4em;
+	text-decoration-line: underline;
+	margin: 10px 0 0.5em 0;
+}
 
 /**************************
 	PAGE: TIMELINE
@@ -283,6 +304,7 @@ footer img {
 	width: 35px;
 	height: 35px;
 	margin: 10px;
+	filter: brightness(0);
 }
 
 footer p {
