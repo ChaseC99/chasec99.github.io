@@ -86,29 +86,12 @@ nav a:link, nav a:visited {
 **************************/
 #cover{
 	background: linear-gradient(to top, #A8BFD0, rgb(168, 191, 208, 0)),
-                pink url('../img/cover_picture.jpg') center / cover;
+                url('../img/cover_picture.jpg') center / cover;
 	height: 650px;
 	text-align: center;
 	padding-top: 70px;
     padding-bottom: 90px;
     margin-bottom: 120px;
-}
-
-#cover img {
-	width: 50px;
-	height: 50px;
-	margin: 10px;
-	filter: saturate(0);
-}
-
-#cover span {
-    color: white;
-    border-bottom: 2px solid;
-	font-size: 13px;
-    letter-spacing: 1.3px;
-    line-height: 2;
-    padding-bottom: 10px;
-    font-weight: lighter;
 }
 
 #cover h1 {
@@ -129,11 +112,59 @@ nav a:link, nav a:visited {
     margin-bottom: 1.7em; /* 34px */
 }
 
-.cover-icons img{
-	width: 35px;
-	height: 35px;
+.cover-links {
+	margin-top: 20px;
+	margin-bottom: 100px;
+}
+
+.cover-links li {
 	margin: 10px;
+}
+
+.cover-links a {
+	display: flex;
+	flex-direction: column;
+	text-decoration: none;
+}
+
+.cover-links a:hover p{
+	opacity: 1;
+}
+
+.cover-links p {
+	opacity: 0;
+	transition: 0.5s;
+	margin: 0;
+	color: #000;
+}
+
+.cover-links img{
+	height: 60px;
+	width: 60px;
+	margin: 5px;
 	filter: brightness(0);
+}
+
+.down-arrow {
+	width: 20px;
+	height: 20px;
+}
+
+.bounce {
+	animation: bounce 4s infinite;
+	animation-delay: 4s;
+}
+  
+@keyframes bounce {
+	0%, 12%, 25%, 37%, 50%, 100% {
+		transform: translateY(0);
+	}
+	20% {
+		transform: translateY(-20px);
+	}
+	30% {
+		transform: translateY(-12px);
+	}
 }
 
 /**************************
@@ -145,6 +176,7 @@ nav a:link, nav a:visited {
 	display: flex;
 	flex-direction: row-reverse;
 	margin: 0 auto 20px auto;
+	padding-top: 50px;
 }
 
 #profile_pic {
