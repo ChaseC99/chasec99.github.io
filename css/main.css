@@ -150,6 +150,10 @@ nav a:link, nav a:visited {
 	height: 20px;
 }
 
+.down-arrow a:active, a:focus {
+	outline: none;
+}
+
 .bounce {
 	animation: bounce 4s infinite;
 	animation-delay: 4s;
