@@ -2,16 +2,21 @@
 	GENERAL
 **************************/
 
+html {
+    height: 100%;
+}
+
+body {
+	background-color: #A8BFD0;
+	height: 100%;
+}
+
 ul {
 	list-style: none;
 }
 
 li {
 	display: inline-block;
-}
-
-body {
-	background-color: #A8BFD0;
 }
 
 
@@ -86,8 +91,9 @@ nav a:link, nav a:visited {
 **************************/
 #cover{
 	background: linear-gradient(to top, #A8BFD0, rgb(168, 191, 208, 0)),
-                url('../img/cover_picture.jpg') center / cover;
-	height: 650px;
+                url('../img/cover_picture.jpg') no-repeat center / cover;
+	height: 100%;
+	position: relative;
 	text-align: center;
 	padding-top: 70px;
     padding-bottom: 90px;
