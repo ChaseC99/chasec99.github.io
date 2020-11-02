@@ -1,31 +1,58 @@
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 600px) {
 	/**************************
-	   TWO COLUMN LAYOUT
+	    COVER
     **************************/
-
-    #primary {
-        width: 50%;
-        float: left;
+    #cover {
+        padding-top: 45px;
+    }
+    
+    #cover h1 {
+        font-size: 4em;
     }
 
-    #secondary {
-        width: 40%;
-        float: right;
+    .cover-links li {
+        margin: 5px;
     }
 
+    .cover-links img{
+        height: 50px;
+        width: 50px;
+        margin: 5px
+    }
 
+    .cover-links p {
+        font-size: small;
+    }
+
+    .down-arrow {
+        margin-top: 120px;
+    }
+    
+    
+    /**************************
+	    PAGE: ABOUT
+    **************************/
+    
+    #about {
+        flex-direction: column;
+        margin: auto;
+    }
+    
+    #profile_pic {
+        height: auto;
+        width: 80%;
+        border-radius: 100px;
+        margin: 0 0 0 20px;
+    }
+
+    #about_bio h3 {
+        font-size: xx-large;
+        text-align: center;
+        text-decoration-line: underline;
+    }
 }
+
 /*
-@media screen and (min-width: 550px) and (max-width:721px) {
-    #page-gallery li {
-        width: 90%;
-    }
-
-    #page-gallery li:nth-child(2) {
-        clear: left;
-    }
-}
-*/
 @media screen and (min-width: 720px) {
     #nav_name {
         display: inline;
@@ -94,5 +121,5 @@
         float: left;
         margin: 0 5% 80px 0;
     }
-    */
-}
+    
+}*/
