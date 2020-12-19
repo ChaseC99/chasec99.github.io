@@ -91,7 +91,7 @@ nav a:link, nav a:visited {
 **************************/
 #cover{
 	background: linear-gradient(to top, #A8BFD0, rgb(168, 191, 208, 0)),
-                url('../img/cover_picture.jpg') no-repeat center / cover;
+                url('../img/cover.jpg') no-repeat center / cover;
 	height: 100%;
 	position: relative;
 	text-align: center;
