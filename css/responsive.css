@@ -34,20 +34,44 @@
     **************************/
     
     #about {
-        flex-direction: column;
+        flex-direction: column-reverse;
         margin: auto;
     }
+
+    #about code {
+        font-size: small;
+    }
     
+    #about p {
+        font-size: large;
+    }
+
     #profile_pic {
         height: auto;
         width: 80%;
-        border-radius: 100px;
-        margin: 0 0 0 20px;
     }
 
     #about_bio h3 {
         font-size: xx-large;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+   /**************************
+	    PAGE: ABOUT
+    **************************/
+    
+    #about {
+        flex-direction: column-reverse;
+        margin: auto;
+    }
+
+    #profile_pic {
+        border-radius: 100px;
+        margin: auto;
+    }
+
+    #about_bio h3 {
         text-align: center;
-        text-decoration-line: underline;
     }
 }
