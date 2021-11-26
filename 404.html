@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Chase Carnaroli</title>
+    <script type="text/javascript">
+      const redirects = {
+        "resume": "resume.pdf",
+        "qrme": "https://apps.apple.com/us/app/qr-me-contact/id1412627381#?platform=iphone"
+      }
+      
+      const path = window.location.pathname.substring(1)
+
+      const redirect = redirects["path"]
+      if (redirect) {
+        window.location.replace(redirect)
+      } else {
+        window.location.replace("https://www.chasecarnaroli.com")
+      }
+    </script>
+  </head>
+
+</html>
