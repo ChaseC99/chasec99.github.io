@@ -333,6 +333,11 @@ nav a:link, nav a:visited {
 	margin-bottom: 0;
 	color: inherit;
 }
+
+.timeline-link {
+	color: gray;
+}
+
 .timeline-body {
 	display: none;
 }
