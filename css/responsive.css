@@ -74,4 +74,8 @@
     #about_bio h3 {
         text-align: center;
     }
+
+    #about_bio {
+        max-width: 100%;
+    }
 }
