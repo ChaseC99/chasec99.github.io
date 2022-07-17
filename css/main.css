@@ -23,6 +23,17 @@ a {
 	color: white;
 }
 
+h3 {
+	text-align: center;
+	color: white;
+	font-size: 4em;
+	text-decoration-line: underline;
+}
+
+h4 {
+	margin: 0 0 1em 0;
+}
+
 
 /**************************
 	HEADING
@@ -228,10 +239,44 @@ nav a:link, nav a:visited {
 }
 
 #about_bio h3 {
-	font-size: 4em;
-	text-decoration-line: underline;
+	text-align: left;
 	margin: 10px 0 0.5em 0;
 }
+
+/**************************
+	PAGE: PROJECTS
+**************************/    
+
+#projects {
+
+}
+
+.project-gallery {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 5em;
+}
+
+.project {
+	width: 300px;
+	background-color: white;
+	padding: 1em;
+	border-radius: 10px;
+}
+
+.project a {
+	color: black;
+}
+
+.project-screenshot {
+	width: 300px;
+	height: 150px;
+	object-fit: cover;
+	object-position: top;
+	border-radius: calc(1em - 10px) calc(1em - 10px) 0 0
+}
+
 
 /**************************
 	PAGE: TIMELINE
