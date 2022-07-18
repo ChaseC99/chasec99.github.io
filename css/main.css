@@ -247,10 +247,6 @@ nav a:link, nav a:visited {
 	PAGE: PROJECTS
 **************************/    
 
-#projects {
-
-}
-
 .project-gallery {
 	display: flex;
 	flex-wrap: wrap;
@@ -275,6 +271,11 @@ nav a:link, nav a:visited {
 	object-fit: cover;
 	object-position: top;
 	border-radius: calc(1em - 10px) calc(1em - 10px) 0 0
+}
+
+.project-links {
+	display: flex;
+	justify-content: space-between;
 }
 
 
