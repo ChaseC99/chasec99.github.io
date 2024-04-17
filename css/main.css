@@ -154,7 +154,7 @@ nav a:link, nav a:visited {
 	text-decoration: none;
 }
 
-.cover-links a:hover p{
+.cover-links:hover p{
 	opacity: 1;
 }
 
