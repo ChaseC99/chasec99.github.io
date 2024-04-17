@@ -255,14 +255,16 @@ nav a:link, nav a:visited {
 }
 
 .project {
+	display: flex;
+	flex-direction: column;
 	width: 300px;
 	background-color: white;
 	padding: 1em;
 	border-radius: 10px;
 }
 
-.project a {
-	color: black;
+.project p {
+	margin: 0.75em 0;
 }
 
 .project-screenshot {
@@ -276,6 +278,20 @@ nav a:link, nav a:visited {
 .project-links {
 	display: flex;
 	justify-content: space-between;
+	margin-top: auto;
+}
+
+.project-links a {
+	display: flex;
+	align-items: center;
+	gap: 0.5em;
+	font-style: italic;
+	color: black;
+}
+
+.project-link-icon {
+	width: 25px;
+	height: 25px;
 }
 
 
